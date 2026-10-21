@@ -58,7 +58,7 @@ public static class ServiceCollectionExtensions
             options.AddPolicy(name: policyName,
                 corsPolicyBuilder =>
                 {
-                    corsPolicyBuilder.WithOrigins(baseUrlConfig!.WebBase.Replace("host.docker.internal", "localhost").TrimEnd('/'));
+                    corsPolicyBuilder.WithOrigins(baseUrlConfig!.WebBase.Replace("host.docker.internal", "localhost", "eshoppublicapi-eyerhuabaubahehg.westus3-01.azurewebsites.net").TrimEnd('/'));
                     corsPolicyBuilder.AllowAnyMethod();
                     corsPolicyBuilder.AllowAnyHeader();
                 });
