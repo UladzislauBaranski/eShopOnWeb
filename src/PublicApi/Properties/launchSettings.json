@@ -16,7 +16,7 @@
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       },
-      "applicationUrl": "https://localhost:5099"
+      "applicationUrl": "https://eshoppublicapi-eyerhuabaubahehg.westus3-01.azurewebsites.net"
     },
     "WSL": {
       "commandName": "WSL2",
